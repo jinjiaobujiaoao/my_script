@@ -1,0 +1,2707 @@
+[2025-04-21 14:46:01.624] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 14:46:01.625] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 14:46:01.626] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 14:46:01.657] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 14:46:01.658] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 14:46:01.789] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 14:46:01.789] [info] Running tool ...
+[2025-04-21 14:46:01.802] [info] Old version storage/motion file encountered
+[2025-04-21 14:46:01.802] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_GRF.mot (nr=27825 nc=19)
+[2025-04-21 14:46:01.802] [info] .. assuming rotations in Degrees..
+[2025-04-21 14:46:01.960] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 14:46:01.960] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 14:46:01.974] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_IK.mot (nr=5557 nc=28)
+[2025-04-21 14:46:02.035] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 14:46:06.834] [info] InverseDynamicsTool: 1801 time frames in 2 second(s).
+[2025-04-21 14:46:06.835] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics' instead.
+[2025-04-21 14:54:45.137] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 14:54:45.137] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 14:54:45.138] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 14:54:45.138] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 14:54:45.157] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 14:54:45.157] [info] Running tool ...
+[2025-04-21 14:54:45.167] [info] Old version storage/motion file encountered
+[2025-04-21 14:54:45.167] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_GRF.mot (nr=27825 nc=19)
+[2025-04-21 14:54:45.167] [info] .. assuming rotations in Degrees..
+[2025-04-21 14:54:45.326] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 14:54:45.326] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 14:54:45.336] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_IK.mot (nr=5557 nc=28)
+[2025-04-21 14:54:45.396] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 14:54:50.104] [info] InverseDynamicsTool: 1801 time frames in 2 second(s).
+[2025-04-21 14:54:50.105] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics' instead.
+[2025-04-21 15:10:59.070] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:10:59.070] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:10:59.071] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:12:40.409] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:12:40.409] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:12:40.409] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:12:40.409] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:12:40.410] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:12:40.430] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:12:40.430] [info] Running tool ...
+[2025-04-21 15:12:40.440] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:12:40.443] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:12:56.745] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:12:56.746] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:13:11.720] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:13:11.720] [info] Running tool ...
+[2025-04-21 15:13:11.734] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:13:11.734] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:16:32.175] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:16:32.175] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:16:32.203] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:16:32.204] [info] Running tool ...
+[2025-04-21 15:16:32.216] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:16:32.216] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:17:38.269] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:17:38.270] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:17:53.743] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:17:53.743] [info] Running tool ...
+[2025-04-21 15:17:53.757] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:17:53.757] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:18:57.250] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:18:57.250] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:18:57.250] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:18:57.250] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:18:57.250] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:18:57.251] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:18:57.279] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:18:57.279] [info] Running tool ...
+[2025-04-21 15:18:57.318] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:18:57.318] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:20:34.175] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:20:34.175] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:20:34.176] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:20:34.191] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:20:34.191] [info] Running tool ...
+[2025-04-21 15:20:34.204] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:20:34.204] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:21:53.689] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:21:53.690] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:21:53.705] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:21:53.705] [info] Running tool ...
+[2025-04-21 15:21:53.717] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot.
+[2025-04-21 15:21:53.717] [error] Failed to read ExternalLoads data file 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\subject_01.mot'.
+[2025-04-21 15:22:11.333] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:22:11.334] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:22:11.349] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:22:11.349] [info] Running tool ...
+[2025-04-21 15:22:11.362] [info] Old version storage/motion file encountered
+[2025-04-21 15:22:11.362] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_01.mot (nr=27825 nc=19)
+[2025-04-21 15:22:11.362] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:22:11.523] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:22:11.523] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:22:11.534] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_01.mot (nr=5557 nc=28)
+[2025-04-21 15:22:11.594] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:22:16.555] [info] InverseDynamicsTool: 5458 time frames in 2 second(s).
+[2025-04-21 15:22:16.557] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_01' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:22:33.775] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:22:33.776] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:22:33.792] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:22:33.792] [info] Running tool ...
+[2025-04-21 15:22:33.803] [info] Old version storage/motion file encountered
+[2025-04-21 15:22:33.803] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_01.mot (nr=27825 nc=19)
+[2025-04-21 15:22:33.803] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:22:33.960] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:22:33.960] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:22:33.970] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_01.mot (nr=5557 nc=28)
+[2025-04-21 15:22:34.030] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:22:38.967] [info] InverseDynamicsTool: 5557 time frames in 2 second(s).
+[2025-04-21 15:22:38.969] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_01' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:23:55.546] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:23:55.546] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:23:55.546] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:23:55.547] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:23:55.563] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:23:55.563] [info] Running tool ...
+[2025-04-21 15:23:55.576] [info] Old version storage/motion file encountered
+[2025-04-21 15:23:55.576] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_01.mot (nr=27825 nc=19)
+[2025-04-21 15:23:55.576] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:23:55.748] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:23:55.748] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:23:55.764] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_01.mot (nr=5557 nc=28)
+[2025-04-21 15:23:55.866] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:00.931] [info] InverseDynamicsTool: 5557 time frames in 2 second(s).
+[2025-04-21 15:24:00.932] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_01' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:01.035] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_02.osim
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:01.035] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:01.036] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:01.049] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:01.049] [info] Running tool ...
+[2025-04-21 15:24:01.060] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:01.060] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_02.mot (nr=30745 nc=19)
+[2025-04-21 15:24:01.061] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:01.234] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:01.234] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:01.245] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_02.mot (nr=6141 nc=28)
+[2025-04-21 15:24:01.320] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:06.704] [info] InverseDynamicsTool: 6141 time frames in 2 second(s).
+[2025-04-21 15:24:06.706] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_02' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:06.808] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_03.osim
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:06.808] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:06.809] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:06.809] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:06.809] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:06.809] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:06.809] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:06.822] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:06.822] [info] Running tool ...
+[2025-04-21 15:24:06.832] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:06.832] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_03.mot (nr=26315 nc=19)
+[2025-04-21 15:24:06.832] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:06.979] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:06.979] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:06.989] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_03.mot (nr=5255 nc=28)
+[2025-04-21 15:24:07.047] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:11.689] [info] InverseDynamicsTool: 5255 time frames in 2 second(s).
+[2025-04-21 15:24:11.691] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_03' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:11.801] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_04.osim
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:11.802] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:11.815] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:11.815] [info] Running tool ...
+[2025-04-21 15:24:11.827] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:11.827] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_04.mot (nr=39080 nc=19)
+[2025-04-21 15:24:11.827] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:12.053] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:12.053] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:12.068] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_04.mot (nr=7808 nc=28)
+[2025-04-21 15:24:12.156] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:18.879] [info] InverseDynamicsTool: 7808 time frames in 3 second(s).
+[2025-04-21 15:24:18.881] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_04' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:19.020] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_06.osim
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:19.020] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:19.035] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:19.035] [info] Running tool ...
+[2025-04-21 15:24:19.046] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:19.046] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_06.mot (nr=47500 nc=19)
+[2025-04-21 15:24:19.046] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:19.326] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:19.326] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:19.338] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_06.mot (nr=9492 nc=28)
+[2025-04-21 15:24:19.444] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:27.787] [info] InverseDynamicsTool: 9492 time frames in 3 second(s).
+[2025-04-21 15:24:27.789] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_06' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:27.937] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_08.osim
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:27.937] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:27.938] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:27.951] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:27.951] [info] Running tool ...
+[2025-04-21 15:24:27.962] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:27.962] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_08.mot (nr=47085 nc=19)
+[2025-04-21 15:24:27.962] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:28.246] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:28.246] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:28.261] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_08.mot (nr=9409 nc=28)
+[2025-04-21 15:24:28.368] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:36.953] [info] InverseDynamicsTool: 9409 time frames in 3 second(s).
+[2025-04-21 15:24:36.955] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_08' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:37.112] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_09.osim
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:37.113] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:37.128] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:37.128] [info] Running tool ...
+[2025-04-21 15:24:37.140] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:37.140] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_09.mot (nr=50830 nc=19)
+[2025-04-21 15:24:37.140] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:37.448] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:37.448] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:37.464] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_09.mot (nr=10158 nc=28)
+[2025-04-21 15:24:37.576] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:47.020] [info] InverseDynamicsTool: 10158 time frames in 4 second(s).
+[2025-04-21 15:24:47.023] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_09' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:47.159] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_10.osim
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:47.159] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:47.173] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:47.173] [info] Running tool ...
+[2025-04-21 15:24:47.184] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:47.184] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_10.mot (nr=32105 nc=19)
+[2025-04-21 15:24:47.184] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:47.365] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:47.365] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:47.376] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_10.mot (nr=6413 nc=28)
+[2025-04-21 15:24:47.449] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:53.112] [info] InverseDynamicsTool: 6413 time frames in 2 second(s).
+[2025-04-21 15:24:53.113] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_10' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:53.220] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_11.osim
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:53.220] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:53.234] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:53.234] [info] Running tool ...
+[2025-04-21 15:24:53.244] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:53.245] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_11.mot (nr=29715 nc=19)
+[2025-04-21 15:24:53.245] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:53.409] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:53.409] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:53.419] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_11.mot (nr=5935 nc=28)
+[2025-04-21 15:24:53.485] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:24:58.689] [info] InverseDynamicsTool: 5935 time frames in 2 second(s).
+[2025-04-21 15:24:58.691] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_11' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:24:58.805] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_12.osim
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:24:58.805] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:24:58.819] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:24:58.819] [info] Running tool ...
+[2025-04-21 15:24:58.830] [info] Old version storage/motion file encountered
+[2025-04-21 15:24:58.830] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_12.mot (nr=34240 nc=19)
+[2025-04-21 15:24:58.830] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:24:59.037] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:24:59.037] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:24:59.049] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_12.mot (nr=6840 nc=28)
+[2025-04-21 15:24:59.128] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:05.198] [info] InverseDynamicsTool: 6840 time frames in 2 second(s).
+[2025-04-21 15:25:05.200] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_12' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:05.315] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_13.osim
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:05.315] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:05.316] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:05.316] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:05.316] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:05.316] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:05.328] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:05.328] [info] Running tool ...
+[2025-04-21 15:25:05.340] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:05.340] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_13.mot (nr=35165 nc=19)
+[2025-04-21 15:25:05.340] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:05.545] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:05.545] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:05.558] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_13.mot (nr=7025 nc=28)
+[2025-04-21 15:25:05.637] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:11.854] [info] InverseDynamicsTool: 7025 time frames in 2 second(s).
+[2025-04-21 15:25:11.856] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_13' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:11.954] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_14.osim
+[2025-04-21 15:25:11.954] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:11.955] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:11.967] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:11.968] [info] Running tool ...
+[2025-04-21 15:25:11.979] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:11.979] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_14.mot (nr=17500 nc=19)
+[2025-04-21 15:25:11.979] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:12.077] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:12.077] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:12.086] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_14.mot (nr=3492 nc=28)
+[2025-04-21 15:25:12.126] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:15.155] [info] InverseDynamicsTool: 3492 time frames in 1 second(s).
+[2025-04-21 15:25:15.156] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_14' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:15.245] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_15.osim
+[2025-04-21 15:25:15.245] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:15.245] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:15.245] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:15.246] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:15.258] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:15.258] [info] Running tool ...
+[2025-04-21 15:25:15.268] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:15.268] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_15.mot (nr=34685 nc=19)
+[2025-04-21 15:25:15.268] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:15.464] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:15.464] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:15.476] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_15.mot (nr=6929 nc=28)
+[2025-04-21 15:25:15.553] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:21.630] [info] InverseDynamicsTool: 6929 time frames in 2 second(s).
+[2025-04-21 15:25:21.632] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_15' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:21.763] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_16.osim
+[2025-04-21 15:25:21.763] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:21.763] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:21.763] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:21.763] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:21.764] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:21.777] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:21.777] [info] Running tool ...
+[2025-04-21 15:25:21.788] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:21.788] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_16.mot (nr=52090 nc=19)
+[2025-04-21 15:25:21.788] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:22.092] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:22.092] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:22.109] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_16.mot (nr=10410 nc=28)
+[2025-04-21 15:25:22.234] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:31.407] [info] InverseDynamicsTool: 10410 time frames in 4 second(s).
+[2025-04-21 15:25:31.411] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_16' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:31.544] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_17.osim
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:31.545] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:31.558] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:31.558] [info] Running tool ...
+[2025-04-21 15:25:31.570] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:31.570] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_17.mot (nr=18525 nc=19)
+[2025-04-21 15:25:31.570] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:31.676] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:31.676] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:31.685] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_17.mot (nr=3697 nc=28)
+[2025-04-21 15:25:31.725] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:34.986] [info] InverseDynamicsTool: 3697 time frames in 1 second(s).
+[2025-04-21 15:25:34.987] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_17' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:35.084] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_18.osim
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:35.084] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:35.085] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:35.085] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:35.085] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:35.085] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:35.085] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:35.098] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:35.098] [info] Running tool ...
+[2025-04-21 15:25:35.110] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:35.110] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\30DL\subject_18.mot (nr=39395 nc=19)
+[2025-04-21 15:25:35.110] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:35.334] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:35.334] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:35.347] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\30DL\subject_18.mot (nr=7871 nc=28)
+[2025-04-21 15:25:35.436] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:42.328] [info] InverseDynamicsTool: 7871 time frames in 3 second(s).
+[2025-04-21 15:25:42.331] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL\' was specified where only file name 'subject_18' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\30DL' instead.
+[2025-04-21 15:25:42.464] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:42.465] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:42.478] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:42.478] [info] Running tool ...
+[2025-04-21 15:25:42.488] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:42.488] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_01.mot (nr=43560 nc=19)
+[2025-04-21 15:25:42.488] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:42.746] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:42.746] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:42.759] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_01.mot (nr=8704 nc=28)
+[2025-04-21 15:25:42.855] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:50.644] [info] InverseDynamicsTool: 8704 time frames in 3 second(s).
+[2025-04-21 15:25:50.647] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_01' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:25:50.773] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_02.osim
+[2025-04-21 15:25:50.773] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:50.773] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:50.773] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:50.773] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:50.774] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:50.787] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:50.787] [info] Running tool ...
+[2025-04-21 15:25:50.798] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:50.798] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_02.mot (nr=35175 nc=19)
+[2025-04-21 15:25:50.798] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:51.010] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:51.011] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:51.023] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_02.mot (nr=7027 nc=28)
+[2025-04-21 15:25:51.102] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:25:57.174] [info] InverseDynamicsTool: 7027 time frames in 2 second(s).
+[2025-04-21 15:25:57.176] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_02' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:25:57.287] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_03.osim
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:25:57.287] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:25:57.288] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:25:57.300] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:25:57.301] [info] Running tool ...
+[2025-04-21 15:25:57.312] [info] Old version storage/motion file encountered
+[2025-04-21 15:25:57.312] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_03.mot (nr=31055 nc=19)
+[2025-04-21 15:25:57.312] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:25:57.495] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:25:57.495] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:25:57.505] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_03.mot (nr=6203 nc=28)
+[2025-04-21 15:25:57.574] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:03.127] [info] InverseDynamicsTool: 6203 time frames in 2 second(s).
+[2025-04-21 15:26:03.129] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_03' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:03.248] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_04.osim
+[2025-04-21 15:26:03.248] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:03.248] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:03.248] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:03.249] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:03.261] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:03.261] [info] Running tool ...
+[2025-04-21 15:26:03.274] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:03.274] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_04.mot (nr=48125 nc=19)
+[2025-04-21 15:26:03.274] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:03.567] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:03.567] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:03.582] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_04.mot (nr=9617 nc=28)
+[2025-04-21 15:26:03.690] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:12.098] [info] InverseDynamicsTool: 9617 time frames in 3 second(s).
+[2025-04-21 15:26:12.101] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_04' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:12.231] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_06.osim
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:12.232] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:12.245] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:12.245] [info] Running tool ...
+[2025-04-21 15:26:12.257] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:12.257] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_06.mot (nr=33840 nc=19)
+[2025-04-21 15:26:12.257] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:12.457] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:12.457] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:12.470] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_06.mot (nr=6760 nc=28)
+[2025-04-21 15:26:12.545] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:18.480] [info] InverseDynamicsTool: 6760 time frames in 2 second(s).
+[2025-04-21 15:26:18.482] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_06' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:18.608] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_08.osim
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:18.608] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:18.609] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:18.623] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:18.623] [info] Running tool ...
+[2025-04-21 15:26:18.636] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:18.636] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_08.mot (nr=45885 nc=19)
+[2025-04-21 15:26:18.636] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:18.900] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:18.900] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:18.916] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_08.mot (nr=9169 nc=28)
+[2025-04-21 15:26:19.019] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:27.093] [info] InverseDynamicsTool: 9169 time frames in 3 second(s).
+[2025-04-21 15:26:27.096] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_08' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:27.215] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_09.osim
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:27.216] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:27.228] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:27.228] [info] Running tool ...
+[2025-04-21 15:26:27.240] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:27.240] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_09.mot (nr=22770 nc=19)
+[2025-04-21 15:26:27.240] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:27.379] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:27.379] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:27.390] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_09.mot (nr=4546 nc=28)
+[2025-04-21 15:26:27.441] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:31.527] [info] InverseDynamicsTool: 4546 time frames in 2 second(s).
+[2025-04-21 15:26:31.528] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_09' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:31.622] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_10.osim
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:31.623] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:31.636] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:31.636] [info] Running tool ...
+[2025-04-21 15:26:31.648] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:31.648] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_10.mot (nr=31705 nc=19)
+[2025-04-21 15:26:31.648] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:31.846] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:31.846] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:31.856] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_10.mot (nr=6333 nc=28)
+[2025-04-21 15:26:31.927] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:37.658] [info] InverseDynamicsTool: 6333 time frames in 2 second(s).
+[2025-04-21 15:26:37.660] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_10' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:37.766] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_11.osim
+[2025-04-21 15:26:37.766] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:37.767] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:37.779] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:37.780] [info] Running tool ...
+[2025-04-21 15:26:37.792] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:37.792] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_11.mot (nr=29850 nc=19)
+[2025-04-21 15:26:37.792] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:37.961] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:37.961] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:37.971] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_11.mot (nr=5962 nc=28)
+[2025-04-21 15:26:38.037] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:43.136] [info] InverseDynamicsTool: 5962 time frames in 2 second(s).
+[2025-04-21 15:26:43.138] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_11' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:43.246] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_12.osim
+[2025-04-21 15:26:43.246] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:43.246] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:43.247] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:43.262] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:43.262] [info] Running tool ...
+[2025-04-21 15:26:43.274] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:43.275] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_12.mot (nr=36830 nc=19)
+[2025-04-21 15:26:43.275] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:43.483] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:43.483] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:43.496] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_12.mot (nr=7358 nc=28)
+[2025-04-21 15:26:43.579] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:26:50.146] [info] InverseDynamicsTool: 7358 time frames in 3 second(s).
+[2025-04-21 15:26:50.149] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_12' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:26:50.317] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_13.osim
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:26:50.317] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:26:50.318] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:26:50.331] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:26:50.331] [info] Running tool ...
+[2025-04-21 15:26:50.344] [info] Old version storage/motion file encountered
+[2025-04-21 15:26:50.344] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_13.mot (nr=90240 nc=19)
+[2025-04-21 15:26:50.344] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:26:50.854] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:26:50.854] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:26:50.885] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_13.mot (nr=18040 nc=28)
+[2025-04-21 15:26:51.087] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:07.261] [info] InverseDynamicsTool: 18040 time frames in 6 second(s).
+[2025-04-21 15:27:07.266] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_13' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:07.451] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_14.osim
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:07.451] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:07.452] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:07.464] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:07.464] [info] Running tool ...
+[2025-04-21 15:27:07.475] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:07.475] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_14.mot (nr=17200 nc=19)
+[2025-04-21 15:27:07.475] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:07.576] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:07.576] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:07.587] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_14.mot (nr=3432 nc=28)
+[2025-04-21 15:27:07.625] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:10.686] [info] InverseDynamicsTool: 3432 time frames in 1 second(s).
+[2025-04-21 15:27:10.687] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_14' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:10.781] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_15.osim
+[2025-04-21 15:27:10.781] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:10.781] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:10.781] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:10.781] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:10.782] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:10.795] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:10.795] [info] Running tool ...
+[2025-04-21 15:27:10.808] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:10.808] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_15.mot (nr=40420 nc=19)
+[2025-04-21 15:27:10.808] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:11.047] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:11.047] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:11.064] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_15.mot (nr=8076 nc=28)
+[2025-04-21 15:27:11.156] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:18.160] [info] InverseDynamicsTool: 8076 time frames in 3 second(s).
+[2025-04-21 15:27:18.164] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_15' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:18.289] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_16.osim
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:18.289] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:18.290] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:18.302] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:18.302] [info] Running tool ...
+[2025-04-21 15:27:18.314] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:18.314] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_16.mot (nr=37810 nc=19)
+[2025-04-21 15:27:18.314] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:18.542] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:18.542] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:18.557] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_16.mot (nr=7554 nc=28)
+[2025-04-21 15:27:18.642] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:25.083] [info] InverseDynamicsTool: 7554 time frames in 3 second(s).
+[2025-04-21 15:27:25.085] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_16' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:25.211] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_17.osim
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:25.211] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:25.212] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:25.225] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:25.225] [info] Running tool ...
+[2025-04-21 15:27:25.236] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:25.236] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_17.mot (nr=32875 nc=19)
+[2025-04-21 15:27:25.236] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:25.450] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:25.450] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:25.467] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_17.mot (nr=6567 nc=28)
+[2025-04-21 15:27:25.542] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:31.256] [info] InverseDynamicsTool: 6567 time frames in 2 second(s).
+[2025-04-21 15:27:31.258] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_17' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:31.372] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_18.osim
+[2025-04-21 15:27:31.372] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:31.372] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:31.372] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:31.372] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:31.372] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:31.373] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:31.388] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:31.388] [info] Running tool ...
+[2025-04-21 15:27:31.401] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:31.401] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\50DL\subject_18.mot (nr=34895 nc=19)
+[2025-04-21 15:27:31.401] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:31.614] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:31.614] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:31.626] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\50DL\subject_18.mot (nr=6971 nc=28)
+[2025-04-21 15:27:31.704] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:37.771] [info] InverseDynamicsTool: 6971 time frames in 2 second(s).
+[2025-04-21 15:27:37.773] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL\' was specified where only file name 'subject_18' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\50DL' instead.
+[2025-04-21 15:27:37.883] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_01.osim
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:37.883] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:37.884] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:37.896] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:37.896] [info] Running tool ...
+[2025-04-21 15:27:37.905] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:37.905] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_01.mot (nr=32555 nc=19)
+[2025-04-21 15:27:37.905] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:38.100] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:38.100] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:38.110] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_01.mot (nr=6503 nc=28)
+[2025-04-21 15:27:38.183] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:43.755] [info] InverseDynamicsTool: 6503 time frames in 2 second(s).
+[2025-04-21 15:27:43.757] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_01' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:27:43.863] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_02.osim
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:43.864] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:43.876] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:43.876] [info] Running tool ...
+[2025-04-21 15:27:43.886] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:43.886] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_02.mot (nr=33205 nc=19)
+[2025-04-21 15:27:43.886] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:44.068] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:44.068] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:44.081] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_02.mot (nr=6633 nc=28)
+[2025-04-21 15:27:44.154] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:49.965] [info] InverseDynamicsTool: 6633 time frames in 2 second(s).
+[2025-04-21 15:27:49.967] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_02' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:27:50.079] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_03.osim
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:50.079] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:50.080] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:50.092] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:50.093] [info] Running tool ...
+[2025-04-21 15:27:50.103] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:50.103] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_03.mot (nr=34275 nc=19)
+[2025-04-21 15:27:50.103] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:50.293] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:50.293] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:50.306] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_03.mot (nr=6847 nc=28)
+[2025-04-21 15:27:50.382] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:27:56.466] [info] InverseDynamicsTool: 6847 time frames in 2 second(s).
+[2025-04-21 15:27:56.468] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_03' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:27:56.582] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_04.osim
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:27:56.582] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:27:56.595] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:27:56.595] [info] Running tool ...
+[2025-04-21 15:27:56.607] [info] Old version storage/motion file encountered
+[2025-04-21 15:27:56.607] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_04.mot (nr=34690 nc=19)
+[2025-04-21 15:27:56.607] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:27:56.808] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:27:56.808] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:27:56.822] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_04.mot (nr=6930 nc=28)
+[2025-04-21 15:27:56.898] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:02.867] [info] InverseDynamicsTool: 6930 time frames in 2 second(s).
+[2025-04-21 15:28:02.869] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_04' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:03.022] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_06.osim
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:03.022] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:03.036] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:03.036] [info] Running tool ...
+[2025-04-21 15:28:03.049] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:03.049] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_06.mot (nr=65835 nc=19)
+[2025-04-21 15:28:03.049] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:03.411] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:03.411] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:03.439] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_06.mot (nr=13159 nc=28)
+[2025-04-21 15:28:03.588] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:15.581] [info] InverseDynamicsTool: 13159 time frames in 5 second(s).
+[2025-04-21 15:28:15.585] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_06' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:15.763] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_08.osim
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:15.764] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:15.776] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:15.776] [info] Running tool ...
+[2025-04-21 15:28:15.789] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:15.789] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_08.mot (nr=53960 nc=19)
+[2025-04-21 15:28:15.789] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:16.086] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:16.086] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:16.100] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_08.mot (nr=10784 nc=28)
+[2025-04-21 15:28:16.219] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:25.550] [info] InverseDynamicsTool: 10784 time frames in 4 second(s).
+[2025-04-21 15:28:25.553] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_08' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:25.684] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_09.osim
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:25.684] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:25.699] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:25.699] [info] Running tool ...
+[2025-04-21 15:28:25.712] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:25.712] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_09.mot (nr=26690 nc=19)
+[2025-04-21 15:28:25.712] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:25.879] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:25.879] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:25.889] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_09.mot (nr=5330 nc=28)
+[2025-04-21 15:28:25.948] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:30.886] [info] InverseDynamicsTool: 5330 time frames in 2 second(s).
+[2025-04-21 15:28:30.887] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_09' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:31.027] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_10.osim
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:31.027] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:31.028] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:31.045] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:31.045] [info] Running tool ...
+[2025-04-21 15:28:31.061] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:31.061] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_10.mot (nr=55955 nc=19)
+[2025-04-21 15:28:31.061] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:31.399] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:31.399] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:31.416] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_10.mot (nr=11183 nc=28)
+[2025-04-21 15:28:31.556] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:41.628] [info] InverseDynamicsTool: 11183 time frames in 4 second(s).
+[2025-04-21 15:28:41.632] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_10' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:41.778] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_11.osim
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:41.778] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:41.792] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:41.792] [info] Running tool ...
+[2025-04-21 15:28:41.804] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:41.804] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_11.mot (nr=31450 nc=19)
+[2025-04-21 15:28:41.804] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:41.995] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:41.995] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:42.006] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_11.mot (nr=6282 nc=28)
+[2025-04-21 15:28:42.077] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:47.780] [info] InverseDynamicsTool: 6282 time frames in 2 second(s).
+[2025-04-21 15:28:47.782] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_11' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:47.899] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_12.osim
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:47.899] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:47.913] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:47.913] [info] Running tool ...
+[2025-04-21 15:28:47.925] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:47.925] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_12.mot (nr=35480 nc=19)
+[2025-04-21 15:28:47.925] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:48.147] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:48.147] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:48.161] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_12.mot (nr=7088 nc=28)
+[2025-04-21 15:28:48.242] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:28:54.585] [info] InverseDynamicsTool: 7088 time frames in 3 second(s).
+[2025-04-21 15:28:54.588] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_12' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:28:54.757] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_13.osim
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:28:54.757] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:28:54.758] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:28:54.772] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:28:54.772] [info] Running tool ...
+[2025-04-21 15:28:54.784] [info] Old version storage/motion file encountered
+[2025-04-21 15:28:54.784] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_13.mot (nr=91300 nc=19)
+[2025-04-21 15:28:54.784] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:28:55.336] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:28:55.336] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:28:55.371] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_13.mot (nr=18252 nc=28)
+[2025-04-21 15:28:55.607] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:12.532] [info] InverseDynamicsTool: 18252 time frames in 7 second(s).
+[2025-04-21 15:29:12.538] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_13' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:29:12.729] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_14.osim
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:29:12.729] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:29:12.730] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:29:12.730] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:29:12.730] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:29:12.743] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:29:12.743] [info] Running tool ...
+[2025-04-21 15:29:12.756] [info] Old version storage/motion file encountered
+[2025-04-21 15:29:12.756] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_14.mot (nr=18485 nc=19)
+[2025-04-21 15:29:12.756] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:29:12.872] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:29:12.872] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:29:12.881] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_14.mot (nr=3689 nc=28)
+[2025-04-21 15:29:12.924] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:16.222] [info] InverseDynamicsTool: 3689 time frames in 1 second(s).
+[2025-04-21 15:29:16.223] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_14' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:29:16.313] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_15.osim
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:29:16.313] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:29:16.314] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:29:16.327] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:29:16.327] [info] Running tool ...
+[2025-04-21 15:29:16.340] [info] Old version storage/motion file encountered
+[2025-04-21 15:29:16.340] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_15.mot (nr=28910 nc=19)
+[2025-04-21 15:29:16.340] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:29:16.530] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:29:16.530] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:29:16.543] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_15.mot (nr=5774 nc=28)
+[2025-04-21 15:29:16.611] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:21.834] [info] InverseDynamicsTool: 5774 time frames in 2 second(s).
+[2025-04-21 15:29:21.835] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_15' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:29:21.967] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_16.osim
+[2025-04-21 15:29:21.967] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:29:21.967] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:29:21.967] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:29:21.968] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:29:21.981] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:29:21.981] [info] Running tool ...
+[2025-04-21 15:29:21.994] [info] Old version storage/motion file encountered
+[2025-04-21 15:29:21.994] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_16.mot (nr=54765 nc=19)
+[2025-04-21 15:29:21.994] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:29:22.302] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:29:22.302] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:29:22.318] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_16.mot (nr=10945 nc=28)
+[2025-04-21 15:29:22.450] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:32.254] [info] InverseDynamicsTool: 10945 time frames in 4 second(s).
+[2025-04-21 15:29:32.257] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_16' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:29:32.391] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_17.osim
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:29:32.391] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:29:32.406] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:29:32.406] [info] Running tool ...
+[2025-04-21 15:29:32.419] [info] Old version storage/motion file encountered
+[2025-04-21 15:29:32.419] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_17.mot (nr=22985 nc=19)
+[2025-04-21 15:29:32.419] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:29:32.565] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:29:32.565] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:29:32.574] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_17.mot (nr=4589 nc=28)
+[2025-04-21 15:29:32.626] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:36.780] [info] InverseDynamicsTool: 4589 time frames in 2 second(s).
+[2025-04-21 15:29:36.781] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_17' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.
+[2025-04-21 15:29:36.895] [info] Loaded model scaled from file D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\model\subject_18.osim
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'fibula.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'talus.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'foot.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-21 15:29:36.896] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-04-21 15:29:36.908] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-04-21 15:29:36.908] [info] Running tool ...
+[2025-04-21 15:29:36.921] [info] Old version storage/motion file encountered
+[2025-04-21 15:29:36.921] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_5\force\70DL\subject_18.mot (nr=53025 nc=19)
+[2025-04-21 15:29:36.921] [info] .. assuming rotations in Degrees..
+[2025-04-21 15:29:37.225] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-04-21 15:29:37.225] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-04-21 15:29:37.239] [info] Storage: read data file = D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_kinematics\70DL\subject_18.mot (nr=10597 nc=28)
+[2025-04-21 15:29:37.359] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-04-21 15:29:46.814] [info] InverseDynamicsTool: 10597 time frames in 4 second(s).
+[2025-04-21 15:29:46.817] [warning] Directory 'd:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL\' was specified where only file name 'subject_18' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\Paper\paper_current\paper_step_1_data\data_step_6\inverse_dynamics\70DL' instead.

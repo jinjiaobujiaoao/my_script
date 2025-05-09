@@ -1,0 +1,2 @@
+datafile>D:\Documents\MATLAB\ToolBox\OpenSim\Residual_Reduction_Algorithm\file_prepared\dingzhejin_30DJ0001_grf.mot</datafile>
+改这个
