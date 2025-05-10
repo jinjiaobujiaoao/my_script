@@ -8,16 +8,16 @@
 % value_plot             是否可视化IK value   true/false
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function IK(parameter)
+function IK(input)
 
-IK_Model = parameter.IK_Model;
-IK_marker_file = parameter.IK_marker_file;
-IK_time_range = parameter.IK_time_range;
-IK_output_file = parameter.IK_output_file;
+IK_Model = input.IK_Model;
+IK_marker_file = input.IK_marker_file;
+IK_time_range = input.IK_time_range;
+IK_output_file = input.IK_output_file;
 
-if isfield('plot_error',parameter)
+if isfield('plot_error',input)
 
-    plot_error = parameter.plot_error;
+    plot_error = input.plot_error;
 
 else
 
@@ -25,9 +25,9 @@ else
 
 end
 
-if isfield('plot_value',parameter)
+if isfield('plot_value',input)
 
-    plot_value = parameter.plot_value;
+    plot_value = input.plot_value;
 
 else
 
@@ -49,16 +49,19 @@ IKTool.setEndTime(IK_time_range(2));
 IKTool.setOutputMotionFileName(IK_output_file);
 
 % 获得IK marker标记点属性
-[IK_marker_task_name,IK_marker_task_weight,IK_marker_task_apply] = IK_marker_set();
+marker_set = IK_marker_set();
+
 % 设置IK marker标记点属性
 IK_task_set = IKTool.get_IKTaskSet();
 % 设置IK marker名称（Name）、权重（Weight）、是否参与（Apply）
-for i = 1:size(IK_marker_task_name,2)
+for i = 1:size(marker_set.name_all,2)
+
     IK_marker_task = IKMarkerTask();
-    IK_marker_task.setName(IK_marker_task_name{i});
-    IK_marker_task.setWeight(IK_marker_task_weight(i));
-    IK_marker_task.setApply(IK_marker_task_apply(i));
+    IK_marker_task.setName(marker_set.name_all{i});
+    IK_marker_task.setWeight(marker_set.weight_all(i));
+    IK_marker_task.setApply(marker_set.apply_all(i));
     IK_task_set.cloneAndAppend(IK_marker_task);
+
 end
 
 % 设置标记点
@@ -71,12 +74,16 @@ IKTool.run();
 
 % IK value 可视化
 if plot_value
+
     IK_value_plot(IK_output_file);
+
 end
 
 % IK errors 可视化
 if plot_error
+
     IK_error_plot();
+
 end
 
 
