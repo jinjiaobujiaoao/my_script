@@ -1,8 +1,10 @@
-function plot_with_std(data_mean,data_std,color_shadow)
+function plot_with_std(input)
 
-if nargin < 3 || isempty(color_shadow)
-    color_shadow = [0,0,0];
-end
+data_mean = input.data_mean;
+data_std = input.data_std;
+color_shadow = input.color_shadow;
+
+% -------------------------------------------------------------------------
 
 bound_upper = data_mean + data_std; 
 bound_lower = data_mean - data_std; 

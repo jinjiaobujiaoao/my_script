@@ -1,24 +1,69 @@
-function bar_group(bar_group_data,bar_group_figure_information)
-% figure;
-% hold on;
-data_value = bar_group_data.value;
-data_std = bar_group_data.std;
-value_p = bar_group_data.p;
+function bar_group(input)
 
-legend_name = bar_group_figure_information.legend;
-case_name = bar_group_figure_information.xticklabels;
-font_size = bar_group_figure_information.FontSize;
+data_value = input.data.value;
+data_std = input.data.std;
+
+if isfield(input.data,'p')
+
+    value_p = ones(length(data_value),1);
+    value_p = value_p(:);
+
+else
+
+    value_p = input.data.p;
+
+end
+
+if isfield(input,'legend_name')
+
+    legend_plot = true;
+    legend_name = input.legend;
+
+else
+
+    legend_plot = false;
+
+end
+
+if isfield(input,'xline_color')
+
+    xline_plot = true;
+    xline_color = input.xline_color;
+
+else
+
+    xline_plot = false;
+
+end
+
+if isfield(input,'bar_width_coefficient')
+
+    bar_width_coefficient = input.bar_width_coefficient;
+
+else
+
+    bar_width_coefficient = 50/100;
+
+end
+
+if isfield(input,'bar_gap_width_coefficient')
+
+    bar_gap_width_coefficient = input.bar_gap_width_coefficient;
+
+else
+
+    bar_gap_width_coefficient = 30/100;
+
+end
+
+bar_color = input.bar_color;
+
+case_name = input.xticklabels;
+font_size = input.FontSize;
 font_name = 'Times New Roman';
 
-bar_color = bar_group_figure_information.bar_color;
-bar_width_coefficient = bar_group_figure_information.bar_width_coefficient;
-bar_gap_width_coefficient = bar_group_figure_information.bar_gap_width_coefficient;
+%-----------------------------------------------------------------------
 
-legend_plot = bar_group_figure_information.legend_plot;
-
-xline_plot = bar_group_figure_information.xline_plot;
-xline_color = bar_group_figure_information.xline_color;
-%%
 X = 1:size(data_value,1);
 Y = data_value + data_std;
 
@@ -33,6 +78,7 @@ bar_handle_all = gobjects(number_group,1);
 for i_bar = 1:number_group
 
     X_bar = X + (i_bar - 1)*(bar_width + bar_gap_width) - (bar_width + bar_gap_width)*(number_group/2 - 0.5);
+
     bar_handle = bar(X_bar,data_value(:,i_bar),bar_width);
     bar_handle.FaceColor = bar_color(i_bar,:);
     bar_handle.EdgeColor = "none";
@@ -60,24 +106,34 @@ ax.YAxis.FontName = font_name;
 ax.YLim = [0,max(Y(:))*1.2];
 
 if xline_plot
-    x_line = 1.5:number_case + 0.5;
+
+    x_line = 1.5:number_case - 0.5;
     xline(x_line,'Color',xline_color,'LineWidth',1,'LineStyle','-','Alpha',0.75);
+
 end
 
 if legend_plot
+
     leg = legend(bar_handle_all,legend_name);
     leg.Box = 'off';
     leg.FontSize = font_size;
+
 end
 
 for i_case = 1:number_case
+
     if value_p(i_case) < 0.001 ||  value_p(i_case) == 0.001
-        text(X(i_case),max(Y(i_case,:))*1.05,'***','HorizontalAlignment','center','VerticalAlignment','middle','FontSize',font_size);
+
+        text(X(i_case),max(Y(i_case,:))*1.05,'***','HorizontalAlignment',...
+            'center','VerticalAlignment','middle','FontSize',font_size);
+
     elseif (value_p(i_case) > 0.001 && value_p(i_case) < 0.05) || value_p(i_case) == 0.05
-        text(X(i_case),max(Y(i_case,:))*1.05,'*','HorizontalAlignment','center','VerticalAlignment','middle','FontSize',font_size);
+
+        text(X(i_case),max(Y(i_case,:))*1.05,'*','HorizontalAlignment',...
+            'center','VerticalAlignment','middle','FontSize',font_size);
+
     end
-end
 
 end
 
-
+end

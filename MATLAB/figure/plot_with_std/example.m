@@ -1,18 +1,18 @@
 clc;clear;close all
 
-data = randn(100, 50); % 100个点，50个样本
-data_mean = mean(data, 2);          
-data_std = std(data, 0, 2);  
-color_shadow = [0.3,0.3,0.3];
+load data_example.mat
+
+% -------------------------------------------------------------------------
 
 figure;
 hold on;
-plot_with_std(data_mean,data_std,color_shadow + 0.5);
 
-data = randn(100, 50); % 100个点，50个样本
-data_mean = mean(data, 2);          
-data_std = std(data, 0, 2);  
-color_shadow = [0.3,0.3,0.3];
+input.data_mean = mean(data_subject_1,2);
+input.data_std = std(data_subject_1,0,2);
+input.color_shadow = [1,0,0];
+plot_with_std(input);
 
-
-plot_with_std(data_mean,data_std,color_shadow - 0.2);
+input.data_mean = mean(data_subject_2,2);
+input.data_std = std(data_subject_2,0,2);
+input.color_shadow = [0,1,0];
+plot_with_std(input);
