@@ -51,24 +51,14 @@ else
 
 end
 
-if isfield(input,'value_mean_plot')
+if isfield(input,'mean_marker_color')
 
-    value_mean_plot = input.value_mean_plot;
-    
-
-else
-
-    value_mean_plot = false;
-
-end
-
-if value_mean_plot && isfield(input,'mean_marker_color')
-
+    value_mean_plot = true;
     mean_marker_color = input.mean_marker_color;
     
 else
 
-    mean_marker_color = [0 0 0];
+    value_mean_plot = false;
 
 end
 
@@ -134,9 +124,7 @@ ax.XTick = 1:case_number;
 ax.XTickLabel = case_name;
 ax.XLim(1) = 1 - case_length * 0.6;
 ax.XLim(2) = case_number + case_length * 0.6;
-
 ax.YAxis.FontName = 'Times New Roman';
-ax.YLim = [value_min * 0.8,value_max * 1.2];
 
 if xline_plot && case_number > 1
 
@@ -166,7 +154,7 @@ if value_mean_plot
                 'Marker','o',...
                 'MarkerFaceColor',mean_marker_color,...
                 'MarkerEdgeColor',1 - mean_marker_color,...
-                'MarkerSize',30*boxchart_width);
+                'MarkerSize',7);
         end
 
     end
