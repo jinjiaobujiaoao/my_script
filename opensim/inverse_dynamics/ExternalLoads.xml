@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="40500">
+   <ExternalLoads>
+      <objects>
+         <ExternalForce name="externalForce_0">
+            <applied_to_body>calcn_l</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>ground_force_v</force_identifier>
+            <point_identifier>ground_force_p</point_identifier>
+            <torque_identifier>ground_torque_</torque_identifier>
+            <data_source_name>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</data_source_name>
+         </ExternalForce>
+         <ExternalForce name="externalForce_1">
+            <applied_to_body>calcn_r</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>1_ground_force_v</force_identifier>
+            <point_identifier>1_ground_force_p</point_identifier>
+            <torque_identifier>1_ground_torque_</torque_identifier>
+            <data_source_name>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</data_source_name>
+         </ExternalForce>
+      </objects>
+      <groups/>
+      <datafile>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</datafile>
+   </ExternalLoads>
+</OpenSimDocument>
