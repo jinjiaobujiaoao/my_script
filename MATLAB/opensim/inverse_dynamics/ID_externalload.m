@@ -1,4 +1,5 @@
 function ID_externalload(force_file)
+
 % 创建DOM节点
 docNode = com.mathworks.xml.XMLUtils.createDocument('OpenSimDocument');
 
@@ -25,7 +26,7 @@ ID_addElement(docNode, externalForce_0, 'force_expressed_in_body', 'ground');
 ID_addElement(docNode, externalForce_0, 'point_expressed_in_body', 'ground');
 ID_addElement(docNode, externalForce_0, 'force_identifier', 'ground_force_v');
 ID_addElement(docNode, externalForce_0, 'point_identifier', 'ground_force_p');
-% ID_addElement(docNode, externalForce1, 'torque_identifier', 'ground_torque_');
+ID_addElement(docNode, externalForce_0, 'torque_identifier', 'ground_torque_');
 ID_addElement(docNode, externalForce_0, 'data_source_name', force_file);
 
 %%
@@ -40,7 +41,7 @@ ID_addElement(docNode, externalForce_1, 'force_expressed_in_body', 'ground');
 ID_addElement(docNode, externalForce_1, 'point_expressed_in_body', 'ground');
 ID_addElement(docNode, externalForce_1, 'force_identifier', '1_ground_force_v');
 ID_addElement(docNode, externalForce_1, 'point_identifier', '1_ground_force_p');
-% ID_addElement(docNode, externalForce2, 'torque_identifier', '1_ground_torque_');
+ID_addElement(docNode, externalForce_1, 'torque_identifier', '1_ground_torque_');
 ID_addElement(docNode, externalForce_1, 'data_source_name', force_file);
 %%
 % 创建groups元素

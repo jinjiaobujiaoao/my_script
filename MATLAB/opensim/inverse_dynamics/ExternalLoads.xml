@@ -8,7 +8,8 @@
             <point_expressed_in_body>ground</point_expressed_in_body>
             <force_identifier>ground_force_v</force_identifier>
             <point_identifier>ground_force_p</point_identifier>
-            <data_source_name>D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_GRF.mot</data_source_name>
+            <torque_identifier>ground_torque_</torque_identifier>
+            <data_source_name>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</data_source_name>
          </ExternalForce>
          <ExternalForce name="externalForce_1">
             <applied_to_body>calcn_r</applied_to_body>
@@ -16,10 +17,11 @@
             <point_expressed_in_body>ground</point_expressed_in_body>
             <force_identifier>1_ground_force_v</force_identifier>
             <point_identifier>1_ground_force_p</point_identifier>
-            <data_source_name>D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_GRF.mot</data_source_name>
+            <torque_identifier>1_ground_torque_</torque_identifier>
+            <data_source_name>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</data_source_name>
          </ExternalForce>
       </objects>
       <groups/>
-      <datafile>D:\Documents\Paper\paper_current\paper_step_2_script\get_data_step_6\function\inverse_dynamics\file_prepared\subject_01_GRF.mot</datafile>
+      <datafile>D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot</datafile>
    </ExternalLoads>
 </OpenSimDocument>

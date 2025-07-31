@@ -4,7 +4,7 @@ path_function = fullfile(pwd,'function');
 addpath(path_function);
 
 rate = 200;
-marker_file_trc = fullfile(pwd,'file_example.tsv');
+marker_file_trc = fullfile(pwd,'CE_8km_M.tsv');
 
 [marker_header,marker_data] = tsv_to_trc(marker_file_trc);
 

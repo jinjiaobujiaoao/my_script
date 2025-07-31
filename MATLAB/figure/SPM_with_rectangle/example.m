@@ -1,12 +1,12 @@
 clc;clear;close all
 load example_data.mat
 
-group_1_condition_1 = data{1};
-group_2_condition_1 = data{2};
-group_1_condition_2 = data{3};
-group_2_condition_2 = data{4};
-group_1_condition_3 = data{5};
-group_2_condition_3 = data{6};
+group_1_condition_1 = data.case_1.group_1 * 0;
+group_2_condition_1 = data.case_1.group_2;
+group_1_condition_2 = data.case_2.group_1;
+group_2_condition_2 = data.case_2.group_2;
+group_1_condition_3 = data.case_3.group_1;
+group_2_condition_3 = data.case_3.group_2;
 data_all = {group_1_condition_1,group_2_condition_1,...
    group_1_condition_2,group_2_condition_2,...
    group_1_condition_3,group_2_condition_3};

@@ -1,0 +1,336 @@
+[2025-05-23 00:28:02.245] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:28:02.245] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:28:02.246] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:28:02.374] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 00:28:02.374] [info] Running tool ...
+[2025-05-23 00:28:02.385] [error] IO.OpenInputFile(const string&,openmode mode): failed to open D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot.
+[2025-05-23 00:28:02.385] [error] Failed to read ExternalLoads data file 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot'.
+[2025-05-23 00:28:23.580] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:28:23.580] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:28:23.581] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:28:23.598] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 00:28:23.598] [info] Running tool ...
+[2025-05-23 00:28:23.610] [info] Old version storage/motion file encountered
+[2025-05-23 00:28:23.610] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot (nr=27825 nc=19)
+[2025-05-23 00:28:23.610] [info] .. assuming rotations in Degrees..
+[2025-05-23 00:28:23.806] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 00:28:23.806] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 00:28:23.821] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01.mot (nr=5557 nc=28)
+[2025-05-23 00:28:23.881] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 00:28:28.595] [info] InverseDynamicsTool: 147 time frames in 2 second(s).
+[2025-05-23 00:28:28.595] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.
+[2025-05-23 00:48:31.685] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:48:31.685] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:48:31.685] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:48:31.685] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:48:31.685] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:48:31.685] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:48:31.686] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:48:31.718] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 00:48:31.718] [info] Running tool ...
+[2025-05-23 00:48:31.745] [info] Old version storage/motion file encountered
+[2025-05-23 00:48:31.745] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_GRF.mot (nr=27825 nc=19)
+[2025-05-23 00:48:31.745] [info] .. assuming rotations in Degrees..
+[2025-05-23 00:48:32.061] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 00:48:32.061] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 00:48:32.083] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_IK.mot (nr=5557 nc=28)
+[2025-05-23 00:48:32.220] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 00:48:38.837] [info] InverseDynamicsTool: 1801 time frames in 2 second(s).
+[2025-05-23 00:48:38.838] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.
+[2025-05-23 00:57:25.276] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:57:25.276] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:57:25.276] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:57:25.276] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:57:25.276] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:57:25.276] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:57:25.277] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:58:06.285] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:58:06.285] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:58:06.286] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:58:06.319] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 00:58:06.319] [info] Running tool ...
+[2025-05-23 00:58:06.342] [info] Old version storage/motion file encountered
+[2025-05-23 00:58:06.342] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot (nr=27825 nc=19)
+[2025-05-23 00:58:06.342] [info] .. assuming rotations in Degrees..
+[2025-05-23 00:58:06.643] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 00:58:06.643] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 00:58:06.658] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01.mot (nr=5557 nc=28)
+[2025-05-23 00:58:06.762] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 00:58:14.306] [info] InverseDynamicsTool: 147 time frames in 3 second(s).
+[2025-05-23 00:58:14.306] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.
+[2025-05-23 00:59:26.446] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 00:59:26.447] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 00:59:26.475] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 00:59:26.475] [info] Running tool ...
+[2025-05-23 00:59:26.490] [info] Old version storage/motion file encountered
+[2025-05-23 00:59:26.490] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot (nr=27825 nc=19)
+[2025-05-23 00:59:26.490] [info] .. assuming rotations in Degrees..
+[2025-05-23 00:59:26.727] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 00:59:26.727] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 00:59:26.739] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01.mot (nr=5557 nc=28)
+[2025-05-23 00:59:26.803] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 00:59:33.783] [info] InverseDynamicsTool: 1801 time frames in 3 second(s).
+[2025-05-23 00:59:33.784] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.
+[2025-05-23 01:27:09.158] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 01:27:09.158] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 01:27:09.158] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 01:27:09.159] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 01:27:09.472] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 01:27:09.472] [info] Running tool ...
+[2025-05-23 01:27:09.496] [info] Old version storage/motion file encountered
+[2025-05-23 01:27:09.496] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot (nr=27825 nc=19)
+[2025-05-23 01:27:09.496] [info] .. assuming rotations in Degrees..
+[2025-05-23 01:27:09.786] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 01:27:09.786] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 01:27:09.804] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01.mot (nr=5557 nc=28)
+[2025-05-23 01:27:09.865] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 01:27:18.855] [info] InverseDynamicsTool: 1801 time frames in 4 second(s).
+[2025-05-23 01:27:18.856] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.
+[2025-05-23 01:30:25.387] [info] Loaded model scaled from file D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01_model.osim
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'fibula.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'talus.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'foot.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-05-23 01:30:25.388] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-05-23 01:30:25.415] [cout] [info] 
+               MODEL: scaled
+         coordinates: 27
+              forces: 93
+           actuators: 93
+             muscles: 93
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 43
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-05-23 01:30:25.415] [info] Running tool ...
+[2025-05-23 01:30:25.434] [info] Old version storage/motion file encountered
+[2025-05-23 01:30:25.434] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01(1).mot (nr=27825 nc=19)
+[2025-05-23 01:30:25.434] [info] .. assuming rotations in Degrees..
+[2025-05-23 01:30:25.726] [info] ExternalForce::externalForce_0 Data source being set to 
+[2025-05-23 01:30:25.726] [info] ExternalForce::externalForce_1 Data source being set to 
+[2025-05-23 01:30:25.743] [info] Storage: read data file = D:\Documents\my_script\MATLAB\opensim\inverse_dynamics\file_prepared\subject_01.mot (nr=5557 nc=28)
+[2025-05-23 01:30:25.800] [info] Low-pass filtering coordinates data with a cutoff frequency of 20.0...
+[2025-05-23 01:30:35.296] [info] InverseDynamicsTool: 5801 time frames in 4 second(s).
+[2025-05-23 01:30:35.297] [warning] Directory 'd:\Documents\my_script\MATLAB\opensim\inverse_dynamics\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'D:\Documents\my_script\MATLAB\opensim\inverse_dynamics' instead.

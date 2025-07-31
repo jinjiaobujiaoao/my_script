@@ -1,15 +1,17 @@
-clc;clear;close all
-load example_data.mat
+clc;
+clear;
+close all;
 
-input.value = {data.case_1.group_1,data.case_1.group_2,data.case_1.group_3;
-    data.case_2.group_1,data.case_2.group_2,data.case_2.group_3;
-    data.case_3.group_1,data.case_3.group_2,data.case_3.group_3;
-    data.case_4.group_1,data.case_4.group_2,data.case_4.group_3};
+load example_data.mat;
+disp(information_example_data);
+
+
+input.value = example_data;
 
 input.font_size = 25;
-input.case_name = {'\fontname{Times New Roman}case 1','case 2','case 3','case 4'};
+input.case_name = {'case 1','case 2','case 3','case 4'};
 
-input.legend_name = {'group 1','group 2','group 3'};
+% input.legend_name = {'group 1','group 2','group 3'};
 
 input.group_color =  [
     [1,0,0];
@@ -28,3 +30,6 @@ input.group_color =  [
 figure;
 hold on;
 boxchart_group(input);
+%% 
+
+example_data
