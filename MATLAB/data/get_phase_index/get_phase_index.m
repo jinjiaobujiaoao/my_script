@@ -1,4 +1,5 @@
 function [index_start,index_end] = get_phase_index(data,threshold,plot_result)
+
 index_all = get_general_phase_index(data);
 data_itr = data(index_all.index_1:index_all.index_2);
 
@@ -14,4 +15,5 @@ if plot_result
     plot(index_start:index_end,0,'ro','MarkerFaceColor','r','MarkerEdgeColor','none','MarkerSize',2);
     plot([index_start,index_end],0,'ro','MarkerFaceColor','r','MarkerEdgeColor','w');
 end
+
 end

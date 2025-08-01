@@ -5,7 +5,7 @@ addpath(genpath(path_function));
 number_case = 2;
 
 if number_case == 1
-    % 独立样本t检验
+
     dataset = spm1d.data.uv1d.t1.Random();
     [Y,mu]  = deal(dataset.Y, dataset.mu);
 
@@ -16,7 +16,7 @@ if number_case == 1
     spmi.plot_threshold_label();
     spmi.plot_p_values();
 elseif number_case ~= 1
-    % 三因素重复测量方差分析
+
     dataset    = spm1d.data.uv1d.anova3rm.SPM1D_ANOVA3RM_2x2x2();
 
     [Y,A,B,C,SUBJ]  = deal(dataset.Y, dataset.A, dataset.B, dataset.C, dataset.SUBJ);

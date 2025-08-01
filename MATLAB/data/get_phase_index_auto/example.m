@@ -1,11 +1,11 @@
 clc;clear;close all
 
 addpath(fullfile(pwd,'function'));
-data = readtable('subject_01.mot',"FileType","text","Delimiter",'\t');
+data = readtable('subject_14.mot',"FileType","text","Delimiter",'\t', 'VariableNamingRule', 'preserve');
 data_force = data.ground_force_vy;
 
-parameter.data_force = data_force;
-parameter.frequency = 1000;
-parameter.number_times = 3;
+input.data_force = data_force;
+input.frequency = 1000;
+input.number_times = 3;
 
-index = get_phase_index_auto(parameter);
+index = get_phase_index_auto(input);

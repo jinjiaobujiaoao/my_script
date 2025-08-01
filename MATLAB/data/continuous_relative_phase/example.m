@@ -5,7 +5,9 @@ load example_data.mat
 angle_CRP = continuous_relative_phase(angle_value.hip,angle_value.knee);
 plot(angle_CRP);
 title('CRP_angle_hip_knee','Interpreter','none');
-%% 连续相对相位（CRP）计算示意图
+
+%%
+
 close all;
 tiledlayout(3,2,'TileSpacing','compact','Padding','compact');
 
