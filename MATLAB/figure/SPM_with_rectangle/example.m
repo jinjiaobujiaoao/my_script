@@ -1,28 +1,30 @@
-clc;clear;close all
-load example_data.mat
-
-group_1_condition_1 = data.case_1.group_1 * 0;
-group_2_condition_1 = data.case_1.group_2;
-group_1_condition_2 = data.case_2.group_1;
-group_2_condition_2 = data.case_2.group_2;
-group_1_condition_3 = data.case_3.group_1;
-group_2_condition_3 = data.case_3.group_2;
-data_all = {group_1_condition_1,group_2_condition_1,...
-   group_1_condition_2,group_2_condition_2,...
-   group_1_condition_3,group_2_condition_3};
-
-handle_figure.xlim = [1,101];
-handle_figure.xticks = 1:20:101;
-handle_figure.xticklabels = 0:20:100;
-handle_figure.xlabel = '\fontname{SimSum}离心阶段\fontname{Times New Roman}/%';
-handle_figure.ylim = [0,8];
-handle_figure.yticks = 0:4:8;
-handle_figure.yticklabels = 0:4:8;
-handle_figure.ylabel = ['\fontname{SimSum}屈\fontname{Times New Roman}/' ...
-    '\fontname{SimSum}伸角\fontname{Times New Roman}SD\fontname{SimSum}(°)'];
-handle_figure.fontname = 'Times New Roman';
-handle_figure.fontsize = 18;
+clc;
+clear;
+close all;
+load example_data.mat;
 
 figure;
-hold on;
-[indices,p_value] = SPM_with_rectangle(data_all,handle_figure);
+
+input.data = data;
+input.index_all = {[0, 20]; [0, 5]; [0, 25; 30, 35]};
+
+% input.number_title = 5;
+% input.number_figure_1 = 30;
+% input.number_figure_2 = 4;
+% input.number_gap_1 = 10;
+% input.number_gap_2 = 1;
+
+% input.box_color = [0.7, 0.7, 0.7];
+% input.line_width = 2;
+% input.group_color = [
+%     88 , 140, 194;
+%     142, 111, 145;
+%     196,  82,  97]...
+%     /256;
+
+
+handles_fig = SPM_with_rectangle(input);
+
+
+
+
